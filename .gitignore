@@ -1,3 +1,10 @@
+#User Added
+*.psd
+*.ai
+*.png
+*.jpg
+*.bat
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

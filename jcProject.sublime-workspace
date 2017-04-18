@@ -1,0 +1,935 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"swi",
+				"switchMapColor"
+			],
+			[
+				"map",
+				"mapColor2"
+			],
+			[
+				"colo",
+				"color2"
+			],
+			[
+				"mapC",
+				"mapColor2〔variable〕"
+			],
+			[
+				"sw",
+				"switchColor"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"will",
+				"willowHTML〔function〕"
+			],
+			[
+				"hr",
+				"href"
+			],
+			[
+				"con",
+				"align-content"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fa",
+				"fadeToggle〔function〕"
+			],
+			[
+				"table-",
+				"table-cell"
+			],
+			[
+				"fadeTo",
+				"fadeToggle〔function〕"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"al",
+				"absolute"
+			],
+			[
+				"kml",
+				"kmlLayer"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"main",
+				"mainText"
+			],
+			[
+				"ch",
+				"changeText"
+			],
+			[
+				"te",
+				"textSecondary"
+			],
+			[
+				"change",
+				"changeText"
+			],
+			[
+				"on",
+				"oneFound"
+			],
+			[
+				"ob",
+				"object2"
+			],
+			[
+				"obje",
+				"object1"
+			],
+			[
+				"im",
+				"imageMain"
+			],
+			[
+				"objec",
+				"object2"
+			],
+			[
+				"ne",
+				"nextImage"
+			],
+			[
+				"onloa",
+				"onloadeddata\tAttr"
+			],
+			[
+				"center",
+				"centerText"
+			],
+			[
+				"ce",
+				"centerText"
+			],
+			[
+				"par",
+				"parseFloat"
+			],
+			[
+				"Fa",
+				"fadeToggle"
+			],
+			[
+				"mouse",
+				"mousedown"
+			],
+			[
+				"mo",
+				"mousedown"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"m",
+				"mousedown"
+			],
+			[
+				"image",
+				"image"
+			],
+			[
+				"ht",
+				"HtmlAgilityPack"
+			],
+			[
+				"Ht",
+				"HtmlAgilityPack"
+			],
+			[
+				"Prg",
+				"Program"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"iamge",
+				"imageNum"
+			],
+			[
+				"imag",
+				"imageNum"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"iln",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"na",
+				"navbar-nav"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"right",
+				"Right"
+			],
+			[
+				"extraM",
+				"extraM4"
+			],
+			[
+				"Extra",
+				"extraM4"
+			],
+			[
+				"showMeter",
+				"ShowMeterGroup\t!ShowMeterGroup"
+			],
+			[
+				"Enab",
+				"EnableMeasureGroup\t!EnableMeasureGroup"
+			],
+			[
+				"DisableMeas",
+				"DisableMeasureGroup\t!DisableMeasureGroup"
+			],
+			[
+				"MeasureParent",
+				"MeasureParentGetGames2"
+			],
+			[
+				"MeasureParentGet",
+				"MeasureParentGetGames2"
+			],
+			[
+				"MeasureGetGames",
+				"MeasureParentGetGames2"
+			],
+			[
+				"SetOption",
+				"SetOption\t!SetOption"
+			],
+			[
+				"If",
+				"IfEqualValue"
+			],
+			[
+				"MeasureChild",
+				"MeasureChildGetGames"
+			],
+			[
+				"MeasureChildGet",
+				"MeasureChildGetGames"
+			],
+			[
+				"Meas",
+				"MeasureName"
+			],
+			[
+				"Reg",
+				"RegExp"
+			],
+			[
+				"h",
+				"head\tTag"
+			],
+			[
+				"solid",
+				"SolidColor"
+			],
+			[
+				"LeftMouse",
+				"LeftMouseUpAction"
+			],
+			[
+				"Line",
+				"LineColor2"
+			],
+			[
+				"Lin",
+				"LineColor"
+			],
+			[
+				"An",
+				"AntiAlias"
+			],
+			[
+				"Showmeter",
+				"ShowMeterGroup\t!ShowMeterGroup"
+			],
+			[
+				"HideMeter",
+				"HideMeterGroup\t!HideMeterGroup"
+			],
+			[
+				"Play",
+				"PlayerType"
+			],
+			[
+				"Ver",
+				"Vertical"
+			],
+			[
+				"H",
+				"Horizontal"
+			],
+			[
+				"Soli",
+				"SolidColor"
+			],
+			[
+				"an",
+				"AntiAlias"
+			],
+			[
+				"String",
+				"StringEffect"
+			],
+			[
+				"ClipS",
+				"ClipStringW"
+			],
+			[
+				"Clip",
+				"ClipStringH"
+			],
+			[
+				"Font",
+				"FontFace"
+			],
+			[
+				"Player",
+				"PlayerName"
+			],
+			[
+				"Measu",
+				"Measure"
+			],
+			[
+				"t",
+				"td\tTag"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"ba",
+				"background-blend-mode"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"cu",
+				"currentLyric"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"i",
+				"initial"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"ov",
+				"text-overflow"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ini",
+				"inline"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"wor",
+				"word-wrap"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"fi",
+				"figure\tTag"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"style",
+				"font-style"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 177.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Boxy Theme: Environment"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Notes",
+				"Notes: Change Color…"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Boxy ",
+				"Boxy Theme: Activation"
+			],
+			[
+				"Less",
+				"Set Syntax: LESS"
+			],
+			[
+				"Gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Notes:Co",
+				"Notes: Change Color…"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Note",
+				"Notes: Change Color…"
+			],
+			[
+				"Package Control: a",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: A",
+				"Package Control: Add Channel"
+			],
+			[
+				"notes",
+				"Notes: List…"
+			],
+			[
+				"note",
+				"Notes: Change Color…"
+			],
+			[
+				"list",
+				"Notes: List…"
+			],
+			[
+				"Notes: C",
+				"Notes: Change Color…"
+			]
+		],
+		"width": 442.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"https://packagecontrol.io/packages/PlainNotes",
+			"https://github.com/aziz/PlainNotes",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/Documents/Goat/Hype/www/css/faculty.css",
+		"/F/Documents/Goat/Hype/www/js/directory.js",
+		"/F/Documents/Goat/Hype/www/faculty.html",
+		"/F/Documents/JC Project/vendor/jquery.min.js",
+		"/F/Documents/Websites/Test/index.html",
+		"/F/Documents/Goat/Hype/www/apply.html",
+		"/F/Documents/Goat/Hype/www/replays.html",
+		"/F/Documents/Goat/Hype/www/about.html",
+		"/F/Documents/Goat/Hype/www/news.html",
+		"/F/Documents/Goat/Hype/www/.gitignore",
+		"/C/Users/Tardis-PC/Desktop/Hype/css/clean-blog.css",
+		"/C/Users/Tardis-PC/Desktop/Hype/js/jquery.js",
+		"/C/Users/Tardis-PC/Desktop/Hype/gulpfile.js",
+		"/C/Users/Tardis-PC/Desktop/www/faculty.html",
+		"/F/Documents/Goat/Hype/www/css/main.css",
+		"/F/Documents/Goat/Hype/www/index.html",
+		"/F/Documents/Websites/Portfolio Website/index.html",
+		"/C/Users/Tardis-PC/Downloads/startbootstrap-clean-blog-gh-pages/index.html",
+		"/F/Documents/Websites/Portfolio Website/css/main.css",
+		"/F/Documents/Websites/Zoom-Trip/images/6.svg",
+		"/F/Documents/Websites/Zoom-Trip/images/2.svg",
+		"/F/Documents/Websites/Zoom-Trip/images/1.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/3.txt",
+		"/C/Users/Midget/Desktop/Zoom-Trip/.gitignore",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/1.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/15.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/8.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/4.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/3.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/2.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/14.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/11.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/10.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/README.txt",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/9.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/7.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/6.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/images/5.svg",
+		"/C/Users/Midget/Desktop/Zoom-Trip/js/zoom.js",
+		"/C/Users/Midget/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/Midget/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/Midget/AppData/Roaming/Sublime Text 3/Packages/User/openinbrowser.sublime-settings",
+		"/C/Users/Midget/Desktop/Zoom-Trip/zoomtrip.sublime-project",
+		"/C/Users/Midget/Documents/Rainmeter/Skins/Custom/programs/programs.ini",
+		"/C/Users/Midget/Desktop/ZoomTrip/Zoom-Trip/.gitignore",
+		"/C/Users/Midget/Desktop/ZoomTrip/Zoom-Trip/gitignore.gitignore",
+		"/C/Users/Midget/Desktop/ZoomTrip/Zoom-Trip/images/README.txt",
+		"/C/Users/Midget/Desktop/ZoomTrip/images/ReadMe.txt",
+		"/G/adobe/css/main.css",
+		"/G/adobe/index.html",
+		"/G/things to work on.txt",
+		"/C/Users/Midget/Documents/Rainmeter/Skins/Visualizer Yellow/@Resources/include/MeasureGenre.inc",
+		"/C/Users/Midget/Documents/Rainmeter/Skins/Visualizer Red/@Resources/include/MeasureGenre.inc",
+		"/C/Users/Midget/Documents/Rainmeter/Skins/Custom/music/music.ini",
+		"/C/Users/Midget/Documents/Rainmeter/Skins/Visualizer Green/@Resources/include/MeasureGenre.inc",
+		"/C/Users/Midget/Documents/Rainmeter/Skins/Visualizer Yellow/visualizer.ini",
+		"/M/Documents/Pathfinder/Notes/Breunor.note",
+		"/M/Documents/Pathfinder/Notes/Pathfinder.note",
+		"/M/Documents/Pathfinder/Notes/Pathfinder.txt",
+		"/C/Users/Midget/Documents/Rainmeter/Skins/Custom/Progress/Progress.ini",
+		"/C/Users/Midget/Desktop/Website/index.html",
+		"/C/Users/Midget/Desktop/Website/css/main.css",
+		"/C/Users/Midget/Downloads/redbricks2b-Unreal-Engine/About these PBR files.txt",
+		"/C/Users/Midget/Desktop/Places to apply to.txt",
+		"/G/presentation/notes.txt",
+		"/C/Users/Midget/Desktop/adobe/css/main.css",
+		"/C/Users/Midget/Desktop/adobe/index.html",
+		"/C/Users/Midget/Desktop/adobe/js/zoom.js",
+		"/C/Users/Midget/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Midget/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Midget/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/Midget/Documents/maya/Maya.env",
+		"/C/Users/Midget/AppData/Local/Temp/MayaCrashLog170319.2137.dmp",
+		"/C/Users/Midget/Documents/maya/mayaLog",
+		"/C/solidangle/mtoadeploy/2017/arnoldRenderer.xml",
+		"/C/Users/Midget/Documents/maya/mayaRenderLog.txt",
+		"/C/Users/Midget/Downloads/zoom-into-image-page-scroll-1401/zoom-into-image-page-scroll/js/skrollr.js",
+		"/C/Users/Midget/Downloads/zoom-into-image-page-scroll-1401/zoom-into-image-page-scroll/js/_main.js",
+		"/C/Users/Midget/Desktop/Flashdriv2/bigpicture.js-master/bigpicture.js",
+		"/C/Users/Midget/Desktop/Places to apply to",
+		"/C/Users/Midget/Documents/Visual Studio 2013/Projects/Skyrim/Skyrim/Form1.cs",
+		"/C/Users/Midget/Documents/Visual Studio 2013/Projects/Skyrim/Skyrim/Program.cs",
+		"/G/website.txt",
+		"/C/Users/Midget/Desktop/Website/css/nav.css",
+		"/M/Documents/Resume Website/ROOT/CSS/home.css",
+		"/M/Documents/Resume Website/ROOT/Website.html",
+		"/M/Documents/Resume Website/ROOT/HTML/Website.html",
+		"/M/Documents/Resume Website/ROOT/CSS/bootstrap.min.css",
+		"/M/Documents/Resume Website/Website.html",
+		"/C/Users/Midget/Downloads/UplinkOS_v104_GOLD_STEAM.3/UplinkOS_ReadMe.txt",
+		"/G/Advanced Raster/HW.txt",
+		"/C/Program Files (x86)/Pokemon Uranium Team/Pokemon Uranium 1.0/neoncube/neoncube.ini",
+		"/C/Users/Midget/Downloads/bootstrap-3.3.7-dist/website.html",
+		"/C/Program Files (x86)/Pokemon Uranium Team/Pokemon Uranium 1.0/Audio/BGS/desktop.ini",
+		"/C/Program Files (x86)/Pokemon Uranium Team/Pokemon Uranium 1.0/Audio/BGM/desktop.ini",
+		"/M/Documents/COLLEGE/Spring 2016/WEB/PersonalProject/code/artists.html",
+		"/M/Documents/COLLEGE/Spring 2016/WEB/PersonalProject/code/littlegreencars.html",
+		"/G/bigpicture.js-master/bigpicture.js",
+		"/G/bigpicture.js-master/bigpicture.css",
+		"/G/bigpicture.js-master/bigpicture.html",
+		"/C/Users/Midget/Downloads/space.java",
+		"/C/Users/Midget/Downloads/time scale.png",
+		"/M/Documents/COLLEGE/Spring 2016/WEB/Homework/Homework2/homework2.html",
+		"/C/Users/Midget/Desktop/Colors",
+		"/C/Users/Midget/Downloads/math.java",
+		"/C/Program Files/Autodesk/Maya2017/Setup/setup.ini",
+		"/C/Program Files (x86)/Autodesk/Autodesk Desktop App/configurations.xml",
+		"/G/SEII/Program.cs",
+		"/M/Documents/txt files/speech.txt",
+		"/C/Users/Midget/AppData/Local/Temp/9D3.tmp.txt",
+		"/C/Users/Midget/Documents/Rainmeter/Skins/Custom/steam/steam.ini",
+		"/M/Documents/txt files/The Sanity of Your Warmth.txt",
+		"/M/Documents/txt files/quote.txt",
+		"/C/Users/Midget/Downloads/DMP File/020217-17796-01.dmp",
+		"/M/Documents/FTB Packs/Bastronull/Dwarf Lore.txt",
+		"/G/Advanced Raster/jaja.RAF",
+		"/G/Advanced Raster/test.RAF",
+		"/C/Users/Midget/Documents/Visual Studio 2015/Projects/granite-master/Granite/Program.cs",
+		"/C/Users/Midget/Documents/Visual Studio 2015/Projects/Initiative Tracker/Initiative Tracker/Program.cs",
+		"/C/Users/Midget/Downloads/Battlefront_II_2017_Graphics_Mod/Battlefront II 2017 Graphics Mod/ReadMe.txt",
+		"/C/Users/Midget/Downloads/media_b730000_17.ts",
+		"/C/Users/Midget/Documents/my games/Borderlands/WillowGame/Config/WillowEngine.ini",
+		"/C/Users/Midget/Documents/my games/Borderlands/WillowGame/Config/WillowInput.ini",
+		"/C/Users/Midget/Downloads/Cover.png.txt",
+		"/C/Users/Midget/Downloads/Cover.txt.jpg",
+		"/C/Users/Midget/Downloads/Cover.hex.jpg",
+		"/C/Users/Midget/Downloads/Cover.jpg",
+		"/C/Users/Midget/Documents/my games/Far Cry 2/GamerProfile.xml"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 130.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"false",
+			"swap",
+			"{\n",
+			".on",
+			"event",
+			"on",
+			"music",
+			"open",
+			"opencl",
+			"MAYA_OPENCL",
+			"enable",
+			"profile_image",
+			"image",
+			"IfMatchAction11",
+			"Yes",
+			"yes",
+			"SystemSettings",
+			"ff d9",
+			"detail",
+			"seta cg_fov",
+			"image4",
+			"fullscreen",
+			"away",
+			"exe",
+			"files",
+			"tabs",
+			"youtube",
+			"steam",
+			"Vertical",
+			"0r",
+			"crossbow",
+			"oil",
+			"allBiomes",
+			"  ",
+			";\n",
+			"}\n",
+			"Padding=0,5,0,5",
+			"Hidden=1",
+			"[MeterStreamTitle*]Hidden=1",
+			"stream",
+			"Hidden"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.jotter":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
