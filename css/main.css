@@ -16,7 +16,7 @@ html {
        background-color: #F8F8F8;
        border-left: none;
        position: relative;
-       z-index: 1;
+       z-index: 3;
        display: none;
        }
 
@@ -46,6 +46,12 @@ html {
        -webkit-transform : rotate(90deg);
 }
 
+.menuContainer {
+      display: inline-block;
+      width: 100%;
+      background-color: #505086;
+}
+
 .menu {
        width: calc(100% / 3);
        float: left;
@@ -62,7 +68,7 @@ html {
 
 .aboutContent {
        background-color: #d0d0d0;
-       margin-top: 68px;
+       margin-top: -4px;
        height: 100%;
        font-family: 'Open Sans';
        font-weight: 600;
@@ -76,14 +82,15 @@ html {
        background-color: #d0d0d0;
        height: 100%;
        padding: 20px;
-       padding-top: 75px;
        display: none;
+       margin-top: -4px;
 }
 
 .mapContent {
        background-color: #d0d0d0;
        height: 100%;
        display: none;
+       margin-top: -4px;
 }
 
 .logo {
@@ -129,8 +136,9 @@ html {
       color: #d0d0d0;
       border-radius: 50%;
       padding: 2px 7px 2px 7px;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
       cursor: pointer;
+      z-index: 1;
 }
 
 .compassCont {
@@ -141,4 +149,37 @@ html {
       width: 100%;
       position: absolute;
       margin-bottom: 25px;
+}
+
+.category {
+      border-radius: 0px 10px 10px 0px;
+      padding: 10px 10px 10px 7px;
+      top: 25%;
+      float: left;
+      z-index: 2;
+      position: absolute;
+      color: #f8f8f8;
+      background-color: #505086;
+      left: 0;
+      -webkit-transition-duration: 0.4s;
+}
+
+#categories {
+       overflow: hidden;
+       float: left;
+       background-color: #F8F8F8;
+       position: absolute;
+       z-index: 3;
+       top: 25%;
+       border-radius: 0px 0px 10px 0px;
+       width: 80px;
+       display: none;
+}
+
+#categories i {
+      color: #f8f8f8;
+      background-color: #505086; 
+      padding: 10px 10px 10px 10px;
+      display: block;
+      text-align: center;
 }

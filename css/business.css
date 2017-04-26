@@ -1,5 +1,16 @@
 @font-face { font-family: intro; src: url('fonts/Intro_Inline.otf'); }
+@font-face { font-family: avenger; src: url('fonts/Avenger.otf'); }
+@font-face { font-family: aller; src: url('fonts/Aller_BdIt.ttf'); }
 
+/*Generic CSS for Businesses */
+.generic {
+    width: 94%;
+    padding-top: 60px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+/*Willow Tree */
 .willow {
     line-height: 39px;
     letter-spacing: 1px;
@@ -7,11 +18,11 @@
     background-color: transparent;
     min-height: 43px;
     text-align: center;
-    z-index: 51;
     font-family: josefin-sans, sans-serif;
     color: #534741;
     position: relative;
     font-size: 35px;
+    margin: 0;
 }
 
 .bLogo {
@@ -22,6 +33,8 @@
 .wLogo {
     width: 100%;
 }
+
+/* Holy Taco */
 
 .lines {
     border-top: 1px solid black;
@@ -72,4 +85,38 @@
     width: 100%;
     display: block;
     padding-top: 50px;
+}
+
+/* Atmoik Comic */
+
+.aLogo {
+    width: 94%;
+    padding-top: 60px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.aText {
+    font-family: avenger;
+    color: white;
+    font-size: 12vw;
+    text-align: center;
+    width: 95%;
+    margin-top: 50px;
+}
+
+/*Korean Taco House */
+.kTaco {
+    width: 94%;
+    padding-top: 60px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+/*Energy Fitness */
+.energyF {
+    font-family: aller;
+    color: #78be68;
+    text-align: center;
+    font-size: 14vw;
 }

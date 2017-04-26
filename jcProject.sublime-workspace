@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"gen",
+				"genericHTML〔function〕"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ener",
+				"energyFitness〔class〕"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"atom",
+				"atomikHTML"
+			],
+			[
+				"ato",
+				"atomikComic"
+			],
+			[
 				"swi",
 				"switchMapColor"
 			],
@@ -26,18 +62,6 @@
 			[
 				"fade",
 				"fadeIn"
-			],
-			[
-				"fon",
-				"font-weight"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
-				"padd",
-				"padding-bottom"
 			],
 			[
 				"font",
@@ -109,10 +133,6 @@
 			],
 			[
 				"padding",
-				"padding-top"
-			],
-			[
-				"pa",
 				"padding-top"
 			],
 			[
@@ -432,10 +452,6 @@
 				"inline"
 			],
 			[
-				"marg",
-				"margin-top"
-			],
-			[
 				"di",
 				"display"
 			],
@@ -498,22 +514,6 @@
 			[
 				"fi",
 				"figure\tTag"
-			],
-			[
-				"paddi",
-				"padding-left"
-			],
-			[
-				"bak",
-				"background-color"
-			],
-			[
-				"backg",
-				"background-color"
-			],
-			[
-				"style",
-				"font-style"
 			]
 		]
 	},
@@ -524,7 +524,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 177.0,
+		"height": 276.0,
 		"last_filter": "install",
 		"selected_items":
 		[
@@ -625,7 +625,7 @@
 				"Notes: Change Color…"
 			]
 		],
-		"width": 442.0
+		"width": 506.0
 	},
 	"console":
 	{
@@ -648,6 +648,8 @@
 	},
 	"file_history":
 	[
+		"/M/Documents/JC Project/css/main.css",
+		"/M/Documents/JC Project/images/Map.ai",
 		"/F/Documents/Goat/Hype/www/css/faculty.css",
 		"/F/Documents/Goat/Hype/www/js/directory.js",
 		"/F/Documents/Goat/Hype/www/faculty.html",
@@ -773,9 +775,7 @@
 		"/C/Users/Midget/Documents/my games/Borderlands/WillowGame/Config/WillowInput.ini",
 		"/C/Users/Midget/Downloads/Cover.png.txt",
 		"/C/Users/Midget/Downloads/Cover.txt.jpg",
-		"/C/Users/Midget/Downloads/Cover.hex.jpg",
-		"/C/Users/Midget/Downloads/Cover.jpg",
-		"/C/Users/Midget/Documents/my games/Far Cry 2/GamerProfile.xml"
+		"/C/Users/Midget/Downloads/Cover.hex.jpg"
 	],
 	"find":
 	{
