@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"ini",
+				"initial"
+			],
+			[
 				"gen",
-				"genericHTML〔function〕"
+				"genericHTML"
 			],
 			[
 				"fon",
@@ -18,10 +26,6 @@
 			[
 				"mar",
 				"margin-top"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"pa",
@@ -472,10 +476,6 @@
 				"width"
 			],
 			[
-				"ini",
-				"inline"
-			],
-			[
 				"back",
 				"background-color"
 			],
@@ -648,6 +648,8 @@
 	},
 	"file_history":
 	[
+		"/M/Documents/JC Project/www/vendor/font-awesome-extension-v.0.0.3/README.md",
+		"/M/Documents/Websites/Zoom-Trip/js/zoom.js",
 		"/M/Documents/JC Project/css/main.css",
 		"/M/Documents/JC Project/images/Map.ai",
 		"/F/Documents/Goat/Hype/www/css/faculty.css",
@@ -773,9 +775,7 @@
 		"/C/Users/Midget/Downloads/media_b730000_17.ts",
 		"/C/Users/Midget/Documents/my games/Borderlands/WillowGame/Config/WillowEngine.ini",
 		"/C/Users/Midget/Documents/my games/Borderlands/WillowGame/Config/WillowInput.ini",
-		"/C/Users/Midget/Downloads/Cover.png.txt",
-		"/C/Users/Midget/Downloads/Cover.txt.jpg",
-		"/C/Users/Midget/Downloads/Cover.hex.jpg"
+		"/C/Users/Midget/Downloads/Cover.png.txt"
 	],
 	"find":
 	{
@@ -793,6 +793,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gmap",
+			"selected",
 			"false",
 			"swap",
 			"{\n",

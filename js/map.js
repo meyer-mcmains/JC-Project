@@ -2,10 +2,14 @@ var fadetime = 0;
 var selected = false;
 var mapColor1 = null;
 var mapColor2 = null;
+var load = true;
+var lat = 36.31627;
+var lng = -82.351161;
+var map;
 
 function initMap() {
-        var jc = {lat: 36.31627, lng: -82.351161};
-        var map = new google.maps.Map(document.getElementById('map'), {
+        var jc = {lat: lat, lng: lng};
+        map = new google.maps.Map(document.getElementById('map'), {
           zoom: 20,
           disableDefaultUI: true,
           center: jc,
@@ -41,16 +45,6 @@ function initMap() {
         });
         map.setMapTypeId('roadmap');
 
-        willowTree(map);
-        holyTaco(map);
-        atomikComic(map);
-        koreanTacoHouse(map);
-        energyFitness(map);
-        crownCutz(map);
-        lit(map);
-        yoga(map);
-        urbane(map);
-
         var imageBounds = {
             north: 36.320410000680331,
             south: 36.312237064559916,
@@ -58,10 +52,82 @@ function initMap() {
             west: -82.35653614686584,
           };
 
-        overlay = new google.maps.GroundOverlay(
-            'images/Map.svg',
+        shopping = new google.maps.GroundOverlay(
+            'images/shopping.svg',
             imageBounds);
-        overlay.setMap(map);
+
+        special = new google.maps.GroundOverlay(
+            'images/special.svg',
+            imageBounds);
+
+        services = new google.maps.GroundOverlay(
+            'images/services.svg',
+            imageBounds);
+
+        bars = new google.maps.GroundOverlay(
+            'images/bars.svg',
+            imageBounds);
+
+        food = new google.maps.GroundOverlay(
+            'images/food.svg',
+            imageBounds);
+
+        rec = new google.maps.GroundOverlay(
+            'images/rec.svg',
+            imageBounds);
+
+        if (load === true) {
+          shopping.setMap(map);
+          special.setMap(map);
+          services.setMap(map);
+          bars.setMap(map);
+          food.setMap(map);
+          rec.setMap(map);
+
+          atomikComic(map);
+          energyFitness(map);
+          crownCutz(map);
+          urbane(map);
+          willowTree(map);
+          holyTaco(map);
+          koreanTacoHouse(map);
+          lit(map);
+          yoga(map);
+          load = false;
+        }
+
+        if ($('#shopping').data('clicked') === false) {
+          shopping.setMap(map);
+          atomikComic(map);
+        }
+
+        if ($('#special').data('clicked') === false) {
+          special.setMap(map);
+          willowTree(map);
+        }
+
+        if ($('#services').data('clicked') === false) {
+          services.setMap(map);
+          crownCutz(map);
+          urbane(map);
+        }
+
+        if ($('#bars').data('clicked') === false) {
+          bars.setMap(map);
+          lit(map);
+        }
+
+        if ($('#food').data('clicked') === false) {
+          food.setMap(map);
+          holyTaco(map);
+          koreanTacoHouse(map);
+        }
+
+        if ($('#rec').data('clicked') === false) {
+          rec.setMap(map);
+          yoga(map);
+          energyFitness(map);
+        }
 }
 
 initMap();
@@ -270,7 +336,7 @@ function crownCutz(gmap) {
   polygon.setMap(gmap);
   google.maps.event.addListener(polygon, 'click', function (event) {
         selected = true;
-        $('.mapinfo').click();
+        
         $('.mapContent').html(genericHTML('crown.png', 'https://goo.gl/maps/arDVS2UyzYL2'));
                     //background, Elements
         switchMapColor('#FFF','#d82206');
@@ -297,6 +363,8 @@ function lit(gmap) {
   google.maps.event.addListener(polygon, 'click', function (event) {
         selected = true;
         $('.mapinfo').click();
+        $('.expand').trigger('click');
+        $('.expand').data('open', true);
         $('.mapContent').html(genericHTML('lit.jpg', 'https://goo.gl/maps/Fobby9niwJ12'));
                     //background, Elements
         switchMapColor('#FFF','#000');
@@ -364,6 +432,12 @@ function genericHTML(image, link)
           '</div>';
   return html;
 }
+
+$('#map').click(function () {
+  if ($('.expand').data('open') === true) {
+    $('.expand').trigger('click');
+  }
+});
 
 //menu about function
 $('.about').click(function () {
@@ -461,82 +535,66 @@ $('.category').click(function () {
 //shopping button
 $('#shopping').click(function () {
   var id = $('#shopping');
-  if(id.data('clicked') === true) {
-    swapCatColor(id, '#f8f8f8', '#84a5f6');
-    id.data('clicked', false);
-  }
-  else {
-    swapCatColor(id, '#84a5f6', '#f8f8f8');
-    id.data('clicked', true);
-  }
+  catClicked(id, '#f8f8f8', '#84a5f6');
 });
 
 //special button
 $('#special').click(function () {
   var id = $('#special');
-  if(id.data('clicked') === true) {
-    swapCatColor(id, '#f8f8f8', '#7bd57b');
-    id.data('clicked', false);
-  }
-  else {
-    swapCatColor(id, '#7bd57b', '#f8f8f8');
-    id.data('clicked', true);
-  }
+  catClicked(id, '#f8f8f8', '#7bd57b');
 });
 
 //services button
 $('#services').click(function () {
   var id = $('#services');
-  if(id.data('clicked') === true) {
-    swapCatColor(id, '#f8f8f8', '#f3b979');
-    id.data('clicked', false);
-  }
-  else {
-    swapCatColor(id, '#f3b979', '#f8f8f8');
-    id.data('clicked', true);
-  }
+  catClicked(id, '#f8f8f8', ' #f3b979');
 });
 
 //bars button
 $('#bars').click(function () {
   var id = $('#bars');
-  if(id.data('clicked') === true) {
-    swapCatColor(id, '#f8f8f8', '#fa7974');
-    id.data('clicked', false);
-  }
-  else {
-    swapCatColor(id, '#fa7974', '#f8f8f8');
-    id.data('clicked', true);
-  }
+  catClicked(id, '#f8f8f8', '#fa7974');
 });
 
 //food button
 $('#food').click(function () {
   var id = $('#food');
-  if(id.data('clicked') === true) {
-    swapCatColor(id, '#f8f8f8', '#cf79f4');
-    id.data('clicked', false);
-  }
-  else {
-    swapCatColor(id, '#cf79f4', '#f8f8f8');
-    id.data('clicked', true);
-  }
+  catClicked(id, '#f8f8f8', '#cf79f4');
 });
 
 //rec button
 $('#rec').click(function () {
   var id = $('#rec');
+  catClicked(id, '#f8f8f8', '#e0ec5a');
+});
+
+//parking button
+$('#parking').click(function () {
+  var id = $('#parking');
+  catClicked(id, '#f8f8f8', '#444');
+});
+
+function catClicked(id, color1, color2) {
   if(id.data('clicked') === true) {
-    swapCatColor(id, '#f8f8f8', '#e0ec5a');
+    swapCatColor(id, color1, color2);
     id.data('clicked', false);
+    getLatLng();
+    initMap();
   }
   else {
-    swapCatColor(id, '#e0ec5a', '#f8f8f8');
+    swapCatColor(id, color2, color1);
     id.data('clicked', true);
+    getLatLng();
+    initMap();
   }
-});
+}
 
 function swapCatColor(id, color1 , color2) {
   id.css('background-color', color1);
   id.css('color', color2);
+}
+
+function getLatLng() {
+  lat = map.getCenter().lat();
+  lng = map.getCenter().lng();
 }
