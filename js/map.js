@@ -2,10 +2,18 @@ var fadetime = 0;
 var selected = false;
 var mapColor1 = null;
 var mapColor2 = null;
-var load = true;
 var lat = 36.31627;
 var lng = -82.351161;
 var map;
+var shopping;
+var special;
+var services;
+var bars;
+var food;
+var rec;
+var parking;
+var locations;
+var ids = [$('#shopping'), $('#special'), $('#services'), $('#bars'), $('#food'), $('#rec')];
 
 function initMap() {
         var jc = {lat: lat, lng: lng};
@@ -76,58 +84,23 @@ function initMap() {
             'images/rec.svg',
             imageBounds);
 
-        if (load === true) {
-          shopping.setMap(map);
-          special.setMap(map);
-          services.setMap(map);
-          bars.setMap(map);
-          food.setMap(map);
-          rec.setMap(map);
+        locations = [shopping, special, services, bars, food, rec]; //remember to add parking
 
-          atomikComic(map);
-          energyFitness(map);
-          crownCutz(map);
-          urbane(map);
-          willowTree(map);
-          holyTaco(map);
-          koreanTacoHouse(map);
-          lit(map);
-          yoga(map);
-          load = false;
+        for (var i = locations.length - 1; i >= 0; i--) {
+          locations[i].setMap(map);
         }
 
-        if ($('#shopping').data('clicked') === false) {
-          shopping.setMap(map);
-          atomikComic(map);
-        }
+        shops = [];
 
-        if ($('#special').data('clicked') === false) {
-          special.setMap(map);
-          willowTree(map);
-        }
-
-        if ($('#services').data('clicked') === false) {
-          services.setMap(map);
-          crownCutz(map);
-          urbane(map);
-        }
-
-        if ($('#bars').data('clicked') === false) {
-          bars.setMap(map);
-          lit(map);
-        }
-
-        if ($('#food').data('clicked') === false) {
-          food.setMap(map);
-          holyTaco(map);
-          koreanTacoHouse(map);
-        }
-
-        if ($('#rec').data('clicked') === false) {
-          rec.setMap(map);
-          yoga(map);
-          energyFitness(map);
-        }
+        atomikComic(map);
+        energyFitness(map);
+        crownCutz(map);
+        urbane(map);
+        willowTree(map);
+        holyTaco(map);
+        koreanTacoHouse(map);
+        lit(map);
+        yoga(map);
 }
 
 initMap();
@@ -578,14 +551,14 @@ function catClicked(id, color1, color2) {
   if(id.data('clicked') === true) {
     swapCatColor(id, color1, color2);
     id.data('clicked', false);
-    getLatLng();
-    initMap();
+
+    removeOverlays();
   }
+
   else {
     swapCatColor(id, color2, color1);
     id.data('clicked', true);
-    getLatLng();
-    initMap();
+    removeOverlays();
   }
 }
 
@@ -594,7 +567,25 @@ function swapCatColor(id, color1 , color2) {
   id.css('color', color2);
 }
 
-function getLatLng() {
-  lat = map.getCenter().lat();
-  lng = map.getCenter().lng();
+function removeOverlays() {
+  console.log(ids[1]);
+  var all = 0;
+
+  for (var i = locations.length - 1; i >= 0; i--) {
+          if (ids[i].data('clicked') === false) {
+            locations[i].setMap(map);
+          }
+          else {
+            locations[i].setMap(null);
+            all ++;
+          } 
+        }
+
+  console.log(all);
+  console.log(locations.length);
+  if (all === locations.length) {
+    for (var i = locations.length - 1; i >= 0; i--) {
+          locations[i].setMap(map);
+        }
+  }
 }

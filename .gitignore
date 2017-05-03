@@ -4,6 +4,8 @@
 *.png
 *.jpg
 *.bat
+*.sublime-project
+*.sublime-workspace
 
 # Windows image file caches
 Thumbs.db

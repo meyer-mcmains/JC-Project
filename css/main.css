@@ -169,7 +169,7 @@ html {
        float: left;
        background-color: #F8F8F8;
        position: absolute;
-       z-index: 3;
+       z-index: 2;
        top: 25%;
        border-radius: 0px 0px 10px 0px;
        width: 80px;

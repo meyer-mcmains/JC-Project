@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"removeOverlays"
+			],
+			[
+				"locat",
+				"locations〔variable〕"
+			],
+			[
+				"loca",
+				"locations〔variable〕"
+			],
+			[
+				"loc",
+				"locations〔variable〕"
+			],
+			[
 				"marg",
 				"margin-left"
 			],
@@ -498,22 +514,6 @@
 			[
 				"font-",
 				"font-family"
-			],
-			[
-				"max-",
-				"max-height"
-			],
-			[
-				"max",
-				"max-height"
-			],
-			[
-				"fig",
-				"figcaption\tTag"
-			],
-			[
-				"fi",
-				"figure\tTag"
 			]
 		]
 	},
@@ -793,6 +793,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bars",
 			"gmap",
 			"selected",
 			"false",
