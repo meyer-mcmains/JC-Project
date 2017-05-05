@@ -4,6 +4,86 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-anchor"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"gener",
+				"genericHTML〔function〕"
+			],
+			[
+				"u",
+				"usedBars"
+			],
+			[
+				"used",
+				"usedBars〔variable〕"
+			],
+			[
+				"use",
+				"usedBars〔variable〕"
+			],
+			[
+				"open",
+				"openClose"
+			],
+			[
+				"map",
+				"mapinfo"
+			],
+			[
+				"k",
+				"koreanTacoHouseHTML"
+			],
+			[
+				"en",
+				"energyFitnessHTML"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"add",
+				"addListener"
+			],
+			[
+				"ta",
+				"tacoHTML"
+			],
+			[
+				"will",
+				"willowHTML"
+			],
+			[
 				"re",
 				"removeOverlays"
 			],
@@ -40,18 +120,6 @@
 				"energyFitness〔class〕"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
-				"pa",
-				"padding"
-			],
-			[
-				"padd",
-				"padding-left"
-			],
-			[
 				"atom",
 				"atomikHTML"
 			],
@@ -62,10 +130,6 @@
 			[
 				"swi",
 				"switchMapColor"
-			],
-			[
-				"map",
-				"mapColor2"
 			],
 			[
 				"colo",
@@ -88,20 +152,12 @@
 				"font-size"
 			],
 			[
-				"will",
-				"willowHTML〔function〕"
-			],
-			[
 				"hr",
 				"href"
 			],
 			[
 				"con",
 				"align-content"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"s",
@@ -136,10 +192,6 @@
 				"background-color"
 			],
 			[
-				"margin",
-				"margin"
-			],
-			[
 				"al",
 				"absolute"
 			],
@@ -170,10 +222,6 @@
 			[
 				"ch",
 				"changeText"
-			],
-			[
-				"te",
-				"textSecondary"
 			],
 			[
 				"change",
@@ -254,10 +302,6 @@
 			[
 				"Prg",
 				"Program"
-			],
-			[
-				"fun",
-				"function"
 			],
 			[
 				"iamge",
@@ -470,50 +514,6 @@
 			[
 				"inline",
 				"inline"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"i",
-				"initial"
-			],
-			[
-				"list",
-				"list-style-type"
-			],
-			[
-				"ov",
-				"text-overflow"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"a",
-				"auto"
-			],
-			[
-				"w",
-				"width"
-			],
-			[
-				"over",
-				"overflow"
-			],
-			[
-				"wor",
-				"word-wrap"
-			],
-			[
-				"font-",
-				"font-family"
 			]
 		]
 	},
@@ -524,10 +524,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 276.0,
-		"last_filter": "install",
+		"height": 357.0,
+		"last_filter": "list ",
 		"selected_items":
 		[
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -625,7 +633,7 @@
 				"Notes: Change Color…"
 			]
 		],
-		"width": 506.0
+		"width": 406.0
 	},
 	"console":
 	{
@@ -648,6 +656,8 @@
 	},
 	"file_history":
 	[
+		"/M/Documents/Goat/Hype/www/js/faculty.js",
+		"/M/Documents/Goat/Hype/www/faculty.html",
 		"/M/Documents/JC Project/www/vendor/font-awesome-extension-v.0.0.3/README.md",
 		"/M/Documents/Websites/Zoom-Trip/js/zoom.js",
 		"/M/Documents/JC Project/css/main.css",
@@ -773,9 +783,7 @@
 		"/C/Users/Midget/Documents/Visual Studio 2015/Projects/Initiative Tracker/Initiative Tracker/Program.cs",
 		"/C/Users/Midget/Downloads/Battlefront_II_2017_Graphics_Mod/Battlefront II 2017 Graphics Mod/ReadMe.txt",
 		"/C/Users/Midget/Downloads/media_b730000_17.ts",
-		"/C/Users/Midget/Documents/my games/Borderlands/WillowGame/Config/WillowEngine.ini",
-		"/C/Users/Midget/Documents/my games/Borderlands/WillowGame/Config/WillowInput.ini",
-		"/C/Users/Midget/Downloads/Cover.png.txt"
+		"/C/Users/Midget/Documents/my games/Borderlands/WillowGame/Config/WillowEngine.ini"
 	],
 	"find":
 	{
@@ -793,6 +801,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"if (selected === false",
+			"selected = true",
+			"selected = false",
+			"selected",
+			"usedBars = true",
+			"open()",
+			"else if",
+			"data('open",
 			"bars",
 			"gmap",
 			"selected",

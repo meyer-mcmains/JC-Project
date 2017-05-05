@@ -72,7 +72,7 @@ html {
        height: 100%;
        font-family: 'Open Sans';
        font-weight: 600;
-       font-size: 1.8vh;
+       font-size: 12px;
        padding: 10px;
        text-align: left;
        display: none;
@@ -86,11 +86,23 @@ html {
        margin-top: -4px;
 }
 
+.eventsContent h1 {
+      font-family: 'Open Sans', sans-serif;
+      margin-top: -20px;
+}
+
 .mapContent {
        background-color: #d0d0d0;
        height: 100%;
        display: none;
        margin-top: -4px;
+       font-family: 'Open Sans';
+       font-weight: 600;
+       padding: 10px;
+}
+
+.mapContent p {
+      font-size: 16px;
 }
 
 .logo {
@@ -108,8 +120,6 @@ html {
        font-family: 'Open Sans';
        font-size: 1.8vh; 
        font-weight: 600;
-       text-indent: 15px;
-       line-height: 1px;
        cursor: pointer;
 }
 
@@ -117,7 +127,6 @@ html {
        font-family: 'Open Sans';
        font-size: 1.8vh; 
        font-weight: 800;
-       line-height: 1px;
        cursor: default;
 }
 
