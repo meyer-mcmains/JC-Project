@@ -353,7 +353,7 @@ function willowHTML() {
   html =  '<img class="wLogo" src="images/willow.png">' +
           '<h1 class="willow">COFFEHOUSE & MUSIC ROOM</h1>' +
           '<div class="compassCont">' +
-          '<a href="https://goo.gl/maps/NRij2U6aTsF2"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
+          '<a href="https://goo.gl/maps/NRij2U6aTsF2" target="_blank"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
           '</div>';
   return html;
 }
@@ -367,7 +367,7 @@ function tacoHTML() {
           '<p class="tCantina">CANTINA</p>' + 
           '<p class="the2">Food <br> & <br> Drinks</p>' +
           '<div class="compassCont">' +
-          '<a href="https://goo.gl/maps/71ApwVXtswP2"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
+          '<a href="https://goo.gl/maps/71ApwVXtswP2" target="_blank"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
           '</div>';
   return html;
 }
@@ -377,7 +377,7 @@ function atomikHTML() {
   html =  '<img class="aLogo" src="images/atomik.png">' +
           '<h1 class="aText">THE LARGEST COMIC SHOP IN TENNESSEE!</h1>' +
           '<div class="compassCont">' +
-          '<a href="https://goo.gl/maps/TEPwzGMj2vy"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
+          '<a href="https://goo.gl/maps/TEPwzGMj2vy" target="_blank"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
           '</div>';
   return html;
 }
@@ -387,7 +387,7 @@ function koreanTacoHouseHTML() {
   html =  '<img class="kTaco" src="images/korean.svg">' +
           '<img class="kTaco" src="images/butter.svg">' +
           '<div class="compassCont">' +
-          '<a href="https://goo.gl/maps/uPva9xTDGeJ2"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
+          '<a href="https://goo.gl/maps/uPva9xTDGeJ2" target="_blank"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
           '</div>';
   return html;
 }
@@ -397,7 +397,7 @@ function energyFitnessHTML() {
   html =  '<img class="kTaco" src="images/energy.png">' +
           '<p class="energyF">BE MORE.<br>DO MORE.</p>' +
           '<div class="compassCont">' +
-          '<a href="https://goo.gl/maps/YiKs7TSVHQp"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
+          '<a href="https://goo.gl/maps/YiKs7TSVHQp" target="_blank"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
           '</div>';
   return html;
 }
@@ -407,7 +407,7 @@ function genericHTML(image, link)
 {
   html =  '<img class="generic" src="images/' + image + '">' +
           '<div class="compassCont">' +
-          '<a href="' + link + '"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
+          '<a href="' + link + '" target="_blank"><i class="fa fa-compass fa-4x compass" aria-hidden="true"></i></a>' +
           '</div>';
   return html;
 }
